@@ -1,0 +1,10 @@
+.lissajousCanvas{
+  background-color: rgb(41, 38, 38);
+  width: 600px;
+  height: 300px;
+}
+
+#lissajousCuadro{
+  display: flex;
+  flex-direction: row;
+}

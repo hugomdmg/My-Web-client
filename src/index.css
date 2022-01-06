@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#opciones{
+    display: flex;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.images{
+    width: 30ch;
+    height: 15ch;
 }
+
+.contenedorPestanas{
+    display: flex;
+    flex-direction: row;
+}
+
+#barra{
+    position: fixed;
+    width: 100%;
+}
+
+#lissajous{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
