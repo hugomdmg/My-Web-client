@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion, Nav, Navbar, Container } from "react-bootstrap";
 import { useState } from "react";
 
