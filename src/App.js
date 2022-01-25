@@ -82,7 +82,7 @@ function App() {
                   <img className="images" src="images/arcade.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>A place where I upload some arcade games that I program. To play, use the keys: a, s, d, w and space</p>
+                  <p>A place where I upload some arcade games that I program. To play, use the keys: a, s, d, w, q, e and space</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item
@@ -164,7 +164,7 @@ function App() {
                   <img className="images" src="images/curvas-nivel.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>This is a tool to draw the contour lines of a map and view them in 3D. You can select a map from your computer and put it as a base to draw the curves on it. At the top you can select the height of the level curve that you are going to draw. When you finish you can rotate the figure using: a, s, d, w</p>
+                  <p>This is a tool to draw the contour lines of a map and view them in 3D. You can select a map from your computer and put it as a base to draw the curves on it. At the top you can select the height of the level curve that you are going to draw. When you finish you can rotate the figure using: a, s, d, w, q, e</p>
                 </Accordion.Body>
               </Accordion.Item>
             </div>
