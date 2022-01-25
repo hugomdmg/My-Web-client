@@ -8,6 +8,10 @@
     height: 15ch;
 }
 
+p{
+    width: 30ch;
+}
+
 .contenedorPestanas{
     display: flex;
     flex-direction: row;

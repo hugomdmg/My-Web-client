@@ -145,7 +145,7 @@ function TablaDatos() {
               });
             }}
           >
-            Ver simulación
+            View simulation
           </button>
         </div>
         <CuadroVisual planeta1={arrayPlaneta1} planeta2={arrayPlaneta2} />
