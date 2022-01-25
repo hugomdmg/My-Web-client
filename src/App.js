@@ -42,8 +42,8 @@ function App() {
         <Barra/>
         <br/>
         <br/>
-        <h6>On this website you can find projects that I do in my free time. Before clicking on any of them, read the description that appears when you pass the mouse over it, in some of them you will have information that will be useful.
-</h6>
+        <p>On this website you can find projects that I do in my free time. Before clicking on any of them, read the description that appears when you pass the mouse over it, in some of them you will have information that will be useful.
+</p>
         <div id="opciones">
           <Accordion defaultActiveKey="1" id="acordeon">
             <div className="contenedorPestanas">
@@ -64,7 +64,7 @@ function App() {
                   <img className="images" src="images/asteroid.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>On this website you can search for the asteroids that were discovered on a date of your choice, and compare them in size with some cities</p>
+                  <p id="explicacion">On this website you can search for the asteroids that were discovered on a date of your choice, and compare them in size with some cities</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item
@@ -82,7 +82,7 @@ function App() {
                   <img className="images" src="images/arcade.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>A place where I upload some arcade games that I program. To play, use the keys: a, s, d, w, q, e and space</p>
+                  <p id="explicacion">A place where I upload some arcade games that I program. To play, use the keys: a, s, d, w, q, e and space</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item
@@ -102,7 +102,7 @@ function App() {
                   <img className="images" src="images/impacto-planetas.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>Originally it was going to be a simulation of the impact of planets, but seeing the first results I decided to simulate a gravitational interaction between point clouds. Upon entering you have two data tables by default, if you click on 'view simulation', you will see how the two clouds interact, forming a spiral galaxy structure over time. You can modify the input data, each time you do so click on 'watch' to update the data. You can view the simulation from various angles by pressing: a, s, d, w
+                  <p id="explicacion">Originally it was going to be a simulation of the impact of planets, but seeing the first results I decided to simulate a gravitational interaction between point clouds. Upon entering you have two data tables by default, if you click on 'view simulation', you will see how the two clouds interact, forming a spiral galaxy structure over time. You can modify the input data, each time you do so click on 'watch' to update the data. You can view the simulation from various angles by pressing: a, s, d, w
 </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -126,7 +126,7 @@ function App() {
                   <img className="images" src="images/lissajous.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>When two waves interfere perpendicularly, in the plane perpendicular to their movement, figures are formed that give us information about these waves. Here you can enter the data of two waves and see what figure comes out. You can see the waves by turning the figure using the keys: a, s, d, w</p>
+                  <p id="explicacion">When two waves interfere perpendicularly, in the plane perpendicular to their movement, figures are formed that give us information about these waves. Here you can enter the data of two waves and see what figure comes out. You can see the waves by turning the figure using the keys: a, s, d, w</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item
@@ -146,7 +146,7 @@ function App() {
                   <img className="images" src="images/corriente.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>Here a small simulation of a current</p>
+                  <p id="explicacion">Here a small simulation of a current</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item
@@ -164,7 +164,7 @@ function App() {
                   <img className="images" src="images/curvas-nivel.png" />
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>This is a tool to draw the contour lines of a map and view them in 3D. You can select a map from your computer and put it as a base to draw the curves on it. At the top you can select the height of the level curve that you are going to draw. When you finish you can rotate the figure using: a, s, d, w, q, e</p>
+                  <p id="explicacion">This is a tool to draw the contour lines of a map and view them in 3D. You can select a map from your computer and put it as a base to draw the curves on it. At the top you can select the height of the level curve that you are going to draw. When you finish you can rotate the figure using: a, s, d, w, q, e</p>
                 </Accordion.Body>
               </Accordion.Item>
             </div>
